@@ -3,7 +3,7 @@
 const { MongoClient } = require("mongodb");
 
 // Connection URI (replace with Atlas URI if needed)
-const uri = "mongodb+srv://kwanelexavi_db_user:xavi123@cluster0.o0nfuss.mongodb.net/";
+const uri = "mongodb+srv://<user_name>:<password>@cluster0.o0nfuss.mongodb.net/";
 
 // Database and collection
 const dbName = "plp_bookstore";
