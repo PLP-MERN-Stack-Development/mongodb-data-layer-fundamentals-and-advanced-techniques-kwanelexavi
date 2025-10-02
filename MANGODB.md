@@ -28,63 +28,56 @@ This project demonstrates MongoDB setup, CRUD operations, advanced queries, aggr
 
 ## Setup Instructions
 
-###  Install MongoDB
-- Install **MongoDB Community Edition** locally, OR set up a free [MongoDB Atlas](https://www.mongodb.com/atlas) cluster.
+## Getting Started
 
-###  Clone this repository
+Clone the repository and navigate into the project directory:
+
 ```bash
-git clone <https://github.com/PLP-MERN-Stack-Development/mongodb-data-layer-fundamentals-and-advanced-techniques-kwanelexavi.git>
+git clone https://github.com/PLP-MERN-Stack-Development/mongodb-data-layer-fundamentals-and-advanced-techniques-kwanelexavi.git
 cd plp_bookstore
+Install Dependencies
+Initialize the project and install MongoDB driver:
 
-
-### Install dependencies
-
+bash
+Copy code
 npm init -y
 npm install mongodb
-
-### Insert sample data
+Insert Sample Data
 Run the insert_books.js script to populate the database with sample books:
 
+bash
+Copy code
 node insert_books.js
-
-### Run queries
+Run Queries
 Execute all queries (CRUD, advanced, aggregation, indexing) using:
 
-
+bash
+Copy code
 node queries.js
-
-
-
-
-### Author
-
-Your Kwanele Mntambo – PLP MongoDB Project
-
-
-### Example Queries
-
+Example Queries
 Find all Fiction books:
 
+javascript
+Copy code
 db.books.find({ genre: "Fiction" })
-
-
 Update book price:
 
+javascript
+Copy code
 db.books.updateOne({ title: "1984" }, { $set: { price: 15.99 } })
-
-
 Aggregation – Average price by genre:
 
-db.books.aggregate([{ $group: { _id: "$genre", avgPrice: { $avg: "$price" } } }])
+javascript
+Copy code
+db.books.aggregate([
+  { $group: { _id: "$genre", avgPrice: { $avg: "$price" } } }
+])
+Images
 
 
 
-### images
+Author
+Kwanele Mntambo – PLP MongoDB Project
 
-![MongoDB Collections Screenshot](images/mangodb.png)
-
-![MongoDB Collections Screenshot](images/mangodb2.png)
-
-
-
-
+pgsql
+Copy code
