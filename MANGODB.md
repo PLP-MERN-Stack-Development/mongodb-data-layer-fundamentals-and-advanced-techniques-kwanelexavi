@@ -1,6 +1,6 @@
 ### PLP Bookstore MongoDB Project
 
-### Overview
+## Overview
 This project demonstrates MongoDB setup, CRUD operations, advanced queries, aggregation pipelines, and indexing using a sample bookstore database.
 
 ## Getting Started
@@ -9,7 +9,7 @@ Prerequisites
 Node.js installed
 
 
-### Installation
+# Installation
 Clone the repository:
 
   git clone https://github.com/PLP-MERN-Stack-Development/mongodb-data-layer-fundamentals-and-advanced-techniques-kwanelexavi.git
@@ -17,23 +17,23 @@ Clone the repository:
   cd plp_bookstore
 
 
-### Install dependencies:
+# Install dependencies:
 
   npm init -y
   
   npm install mongodb
 
 
-### Insert sample data:
+# Insert sample data:
 
   node insert_books.js
 
-### Run queries:
+# Run queries:
 
   node queries.js
 
 
-### Project Features
+## Project Features
 
 
 # Task 1: MongoDB Setup
@@ -64,7 +64,7 @@ Clone the repository:
   
   ✔️ Performance tested with explain()
 
-### Example Querie:
+## Example Querie:
 # Find all Fiction books:
 
   db.books.find({ genre: "Fiction" })
