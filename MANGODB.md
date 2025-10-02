@@ -12,6 +12,7 @@ Node.js installed
 Clone the repository:
 
   git clone https://github.com/PLP-MERN-Stack-Development/mongodb-data-layer-fundamentals-and-advanced-techniques-kwanelexavi.git
+  
   cd plp_bookstore
 
 
@@ -32,21 +33,21 @@ Clone the repository:
 
 ### Project Features
 # Task 1: MongoDB Setup
-✔️ Database plp_bookstore created
-✔️ Collection books created
+  ✔️ Database plp_bookstore created
+  ✔️ Collection books created
 
 # Task 2: CRUD Operations
-✔️ Insert, Find, Update, Delete queries implemented
+  ✔️ Insert, Find, Update, Delete queries implemented
 
 # Task 4: Aggregation Pipelines
-✔️ Average price by genre
-✔️ Author with most books
-✔️ Grouping books by decade
+  ✔️ Average price by genre
+  ✔️ Author with most books
+  ✔️ Grouping books by decade
 
 # Task 5: Indexing
-✔️ Index on title
-✔️ Compound index on author + published_year
-✔️ Performance tested with explain()
+  ✔️ Index on title
+  ✔️ Compound index on author + published_year
+  ✔️ Performance tested with explain()
 
 ### Example Querie:
 # Find all Fiction books:
