@@ -5,6 +5,7 @@ This project demonstrates MongoDB setup, CRUD operations, advanced queries, aggr
 
 ## Getting Started
 Prerequisites
+
 Node.js installed
 
 
@@ -19,6 +20,7 @@ Clone the repository:
 ### Install dependencies:
 
   npm init -y
+  
   npm install mongodb
 
 
@@ -32,21 +34,34 @@ Clone the repository:
 
 
 ### Project Features
+
+
 # Task 1: MongoDB Setup
+
   ✔️ Database plp_bookstore created
+  
   ✔️ Collection books created
 
+
 # Task 2: CRUD Operations
+
   ✔️ Insert, Find, Update, Delete queries implemented
 
+
 # Task 4: Aggregation Pipelines
+
   ✔️ Average price by genre
+  
   ✔️ Author with most books
+  
   ✔️ Grouping books by decade
 
 # Task 5: Indexing
+
   ✔️ Index on title
+  
   ✔️ Compound index on author + published_year
+  
   ✔️ Performance tested with explain()
 
 ### Example Querie:
