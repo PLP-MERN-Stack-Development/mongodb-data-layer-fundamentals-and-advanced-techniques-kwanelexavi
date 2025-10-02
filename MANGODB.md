@@ -35,9 +35,9 @@ This project demonstrates MongoDB setup, CRUD operations, advanced queries, aggr
 ```bash
 git clone <https://github.com/PLP-MERN-Stack-Development/mongodb-data-layer-fundamentals-and-advanced-techniques-kwanelexavi.git>
 cd plp_bookstore
-### Install dependencies
 
-bash
+
+### Install dependencies
 
 npm init -y
 npm install mongodb
@@ -45,14 +45,12 @@ npm install mongodb
 ### Insert sample data
 Run the insert_books.js script to populate the database with sample books:
 
-bash
-Copy code
 node insert_books.js
+
 ### Run queries
 Execute all queries (CRUD, advanced, aggregation, indexing) using:
 
-bash
-Copy code
+
 node queries.js
 
 
@@ -63,7 +61,7 @@ node queries.js
 Your Kwanele Mntambo – PLP MongoDB Project
 
 
-Example Queries
+### Example Queries
 
 Find all Fiction books:
 
@@ -79,6 +77,9 @@ Aggregation – Average price by genre:
 
 db.books.aggregate([{ $group: { _id: "$genre", avgPrice: { $avg: "$price" } } }])
 
+
+
+### images
 
 ![MongoDB Collections Screenshot](images/mangodb.png)
 
